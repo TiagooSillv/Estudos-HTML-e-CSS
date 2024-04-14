@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.topo{
+    display: inline;
+    position: relative;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #604829;    ;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.topo a{
+
+    text-decoration: none;
+    color: #c4a47c;
+
+}
+.info{
+    margin: auto;
+    position: absolute;
+    right: 20px;
+
+}
+.logo{
+    margin: auto;
+    position: absolute;
+    left: 20px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+
+}
+
+.titulo-banner img{
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    width: 100%;
+    height: 800px;
+}
+.titulo-banner{
+   position: relative;
+   height: 500px;
+   background-size: cover;
+   display: flex;
+}
+.background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/parallax-imagem1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    text-align: center;
+    align-items: center;
+    
+}
+.texto-logo{
+    display: inline-block;
+    margin: auto;
+    color: #fff;
+}
+.subtitulo2{
+    width: 100%;
+    height: 500px;
+    display: flex   ;
+
+
+}
+.sub-conteudo{
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    line-height: 35px;
+    
+
+}
+.sub-conteudo h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color:#604829
+}
+.paralax2{
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+
+}
+.paralax-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/parallax-imagem2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.paralax2-conteudo{
+    margin: auto;
+    color: white;
+    background-color: #604829;
+    padding: 5px 50px;
+    font-size: 12px;
+}
+.paralax3{
+    position: relative;
+    height: 500px;
+    background-image: url(../assets/parallax-imagem3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    display: flex;
+}
+.paralax3-conteudo{
+    margin: auto;
+    color: white;
+    background-color: #604829;
+    padding: 5px 50px;
+    font-size: 12px;
+}
+.contato-endereco{
+    position: relative;
+    height: 500px;
+    
+}
+.contato-endereco{
+    
+    position: relative;
+    height: 800px;
+    background-image: url(../assets/parallax-imagem4.png);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    display: grid;
+
+}
+.contato-endereco-titulo{
+    background-color: #604829;
+    margin: auto;
+    padding: 0px 50px;
+    font-size: 12px;
+    color: white;
+}
+.iframe{
+    margin: auto;
+}
+.iframe iframe{
+    margin: 30px 0px;
+}
+.contato-endereco-endereco{
+    margin: auto;
+    text-align: center;
+    background-color: #604829;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+.horario-funcionamento{
+      
+    position: relative;
+    height: 600px;
+    background-image: url(../assets/cafeteria.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    display: grid;
+}
+.horario-funcionamento h2{
+    color: white;
+    margin: auto;
+}
+.horario-funcionamento .lista{
+    color: white;
+    margin: auto;
+    height: 350px;
+    font-size: 50px;
+    text-align: justify;
+    
+}
+.credito{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
