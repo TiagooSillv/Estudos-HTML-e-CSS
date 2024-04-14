@@ -1,0 +1,48 @@
+.principal-endereco {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.endereco {
+    text-align: center;
+    padding: 8vw;
+}
+
+.endereco-logo {
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+}
+.endereco-logo img{
+    height: 60px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+
+
+.endereco-logo p {
+    font-size: 16px;
+    margin: 0; /* Remove a margem padrão */
+    align-items: center;
+}
+
+.endereco-logo-conteudo {
+    color: rgb(62, 125, 202);
+}
+
+.endereco-logo-conteudo h1 {
+    font-size: 32px;
+    margin: 0;
+    color: #000000;
+}
+.endereco-conteudo{
+    margin-top: 40px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.teste-logo{
+    display: flex;
+}
